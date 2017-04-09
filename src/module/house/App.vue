@@ -6,11 +6,6 @@
     </div>
     <div class="section">
       <house-list-container></house-list-container>
-      <house-list-container></house-list-container>
-      <house-list-container></house-list-container>
-      <house-list-container></house-list-container>
-      <house-list-container></house-list-container>
-      <house-list-container></house-list-container>
     </div>
   </div>
 </template>

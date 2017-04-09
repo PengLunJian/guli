@@ -1,5 +1,289 @@
 {
- "name":[
-   "首页","新房","二手房"
- ]
+  "houses": [
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    },
+    {
+      "link": "http://www.baidu.com",
+      "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491783022758&di=d3643ed98b7c3bbbd6d8a6b07052a373&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F59%2F55a69de249738_1024.jpg",
+      "title": "南北通精致装修三房，无增值税，看房方便，商场地铁近",
+      "address": "闵行 - 莘庄",
+      "type": "3室2厅2卫",
+      "mianji": 124,
+      "totalPrice": 610,
+      "unitPrice": 49194,
+      "tedian": [
+        "满分",
+        "学区房",
+        "拎包入住"
+      ]
+    }
+  ]
 }

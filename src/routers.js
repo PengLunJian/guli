@@ -1,12 +1,15 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
+
 import HomeApp from './module/home/App'
 import HouseApp from './module/house/App'
 import DetailApp from './module/detail/App'
 
-Vue.use(Router)
+Vue.use(VueRouter)
+Vue.use(VueResource)
 
-export default new Router({
+export default new VueRouter({
   mode: 'history',
   routes: [
     {

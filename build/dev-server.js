@@ -23,6 +23,23 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+
+// 读取模拟数据
+var appData = require('../data.json')
+var houses = appData.houses
+
+// 定义服务端API获取数据
+var apiRouters = express.Router()
+
+apiRouters.get('/house', function (req, res) {
+  res.json({
+    errno: 0,
+    data: houses
+  })
+})
+
+app.use('/api', apiRouters)
+
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
@@ -90,3 +107,4 @@ module.exports = {
     server.close()
   }
 }
+

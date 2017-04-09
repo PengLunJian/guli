@@ -1,34 +1,48 @@
 <template>
   <div class="house-list-container">
-    <a href="http://www.baidu.com" class="house-list-outside clearfix">
-      <div class="house-list-inside clearfix">
-        <div class="house-list-image pull-left">
-          <img src="../../assets/img/house.jpg" alt="南北通精致装修三房，无增值税，看房方便，商场地铁近"/>
-        </div>
-        <div class="house-list-info pull-right">
-          <h2 class="house-list-title ellipsis">南北通精致装修三房，无增值税，看房方便，商场地铁近</h2>
-          <div class="house-list-position clearfix">
-            <address class="house-list-address pull-left">闵行 - 莘庄</address>
-            <span class="house-list-price pull-right"><b>610</b>万</span>
+    <div v-for="house in houseList" class="house-list-content">
+      <a :href="house.link" class="house-list-outside clearfix">
+        <div class="house-list-inside clearfix">
+          <div class="house-list-image pull-left">
+            <img :src="house.imgUrl" :alt="house.title"/>
           </div>
-          <div class="house-list-size clearfix">
-            <span class="house-list-layout pull-left">3室2厅2卫&nbsp;&nbsp;124m²</span>
-            <span class="house-list-uprice pull-right">49194元/m²</span>
+          <div class="house-list-info pull-right">
+            <h2 class="house-list-title ellipsis">{{house.title}}</h2>
+            <div class="house-list-position clearfix">
+              <address class="house-list-address pull-left">{{house.address}}</address>
+              <span class="house-list-price pull-right"><b>{{house.totalPrice}}</b>万</span>
+            </div>
+            <div class="house-list-size clearfix">
+              <span class="house-list-layout pull-left">{{house.type}}&nbsp;&nbsp;{{house.mianji}}m²</span>
+              <span class="house-list-uprice pull-right">{{house.unitPrice}}元/m²</span>
+            </div>
+            <ul class="house-list-advantage clearfix">
+              <li class="house-list-agitem" v-for="item in house.tedian">{{item}}</li>
+            </ul>
           </div>
-          <ul class="house-list-advantage clearfix">
-            <li class="house-list-agitem">满分</li>
-            <li class="house-list-agitem">学区房</li>
-            <li class="house-list-agitem">拎包入住</li>
-          </ul>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+  const ERR_OK = 0
   export default {
-    name: 'house-list-container'
+    name: 'house-list-container',
+    data () {
+      return {
+        houseList: {}
+      }
+    },
+    created () {
+      this.$http.get('/api/house').then((response) => {
+        response = response.body
+        if (response.errno === ERR_OK) {
+          this.houseList = response.data
+        }
+      })
+    }
   }
 </script>
 

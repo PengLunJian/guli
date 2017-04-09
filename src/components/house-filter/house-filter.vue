@@ -3,7 +3,7 @@
     <ul class="house-filter-select clearfix">
       <li class="house-filter-option" v-for="tab in tabs" @click="showFilter(tab.index)">{{tab.value}}</li>
     </ul>
-    <div class="house-filter-content">
+    <div class="house-filter-content" :class="{hide:isHide}">
       <div class="house-filter-bg" :class="{hide:isHide}" @click="hideFilter"></div>
       <div class="house-filter-item" :class="{hide:tabs[0].isHide}">
         <ul class="house-addr-tab clearfix">
@@ -225,6 +225,9 @@
       width: 100%;
       height: calc(100vh - 0.81rem);
       overflow: hidden;
+      &.hide{
+        visibility: hidden;
+      }
       .house-filter-bg {
         position: absolute;
         top: 0px;
