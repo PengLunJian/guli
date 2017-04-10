@@ -73,7 +73,7 @@
     name: 'detail-banner',
     mounted () {
       (function (mySwiper) {
-        mySwiper = new Swiper('.swiper-container', {
+        mySwiper = new Swiper('.house-content .swiper-container', {
           pagination: '.swiper-pagination',
           autoplay: 2000,
           loop: true,
@@ -87,95 +87,98 @@
 <style lang="less" rel="stylesheet/less">
   @import "../../assets/less/variable";
 
-  .swiper-container {
-    position: relative;
-    .swiper-mask {
-      position: absolute;
-      left: 0px;
-      bottom: 0px;
-      z-index: 1;
-      width: 100%;
-      height: auto;
-      color: @white;
-      font-size: 0.12rem;
-      padding: 0.1rem 0.15rem;
-      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6));
-      .swiper-advantage {
-        float: left;
-        .swiper-advantage-item {
+  .house-content {
+    background-color: @white;
+    .swiper-container {
+      position: relative;
+      .swiper-mask {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        color: @white;
+        font-size: 0.12rem;
+        padding: 0.1rem 0.15rem;
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6));
+        .swiper-advantage {
           float: left;
-          margin-right: 0.06rem;
-          padding: 0rem 0.03rem;
-          line-height: 0.16rem;
-          border: 1px solid @white;
-          /*border-radius: 0.04rem;*/
+          .swiper-advantage-item {
+            float: left;
+            margin-right: 0.06rem;
+            padding: 0rem 0.03rem;
+            line-height: 0.16rem;
+            border: 1px solid @white;
+            /*border-radius: 0.04rem;*/
+          }
         }
-      }
-      .swiper-code {
-        float: right;
-        line-height: 0.18rem;
-      }
-    }
-  }
-
-  .house-info {
-    text-align: center;
-    padding: 0.15rem;
-    .house-des {
-      font-size: 0.18rem;
-      font-weight: bold;
-      line-height: 0.28rem;
-    }
-    .house-price {
-      color: @orange;
-      font-size: 0.17rem;
-      padding: 0.1rem 0.15rem;
-      border-bottom: 1px solid @border-color-gray;
-      em {
-        float: left;
-        display: block;
-        width: 50%;
-        height: 0.18rem;
-        text-align: right;
-        line-height: 0.18rem;
-        padding-right: 0.3rem;
-        border-right: 1px solid @border-color-gray;
-        &:last-child {
-          border: none;
-          text-align: left;
-          padding-left: 0.3rem;
-        }
-      }
-    }
-  }
-
-  .house-acreage {
-    color: @grey;
-    font-size: 0.15rem;
-    padding-top: 0.15rem;
-    .house-ag-ct {
-      line-height: 0.14rem;
-      .house-ag-item {
-        display: inline-block;
-        padding: 0.05rem 0rem;
-        &:after {
-          content: '';
-          display: block;
+        .swiper-code {
           float: right;
-          height: 0.14rem;
-          width: 0px;
-          margin: 0px 0.07rem;
-          border-right: 1px solid #000000;
+          line-height: 0.18rem;
         }
-        &:last-child {
-          &:after {
+      }
+    }
+
+    .house-info {
+      text-align: center;
+      padding: 0.15rem;
+      .house-des {
+        font-size: 0.18rem;
+        font-weight: bold;
+        line-height: 0.28rem;
+      }
+      .house-price {
+        color: @orange;
+        font-size: 0.17rem;
+        padding: 0.1rem 0.15rem;
+        border-bottom: 1px solid @border-color-gray;
+        em {
+          float: left;
+          display: block;
+          width: 50%;
+          height: 0.18rem;
+          text-align: right;
+          line-height: 0.18rem;
+          padding-right: 0.3rem;
+          border-right: 1px solid @border-color-gray;
+          &:last-child {
             border: none;
+            text-align: left;
+            padding-left: 0.3rem;
           }
         }
       }
     }
-    p {
-      padding-top: 0.08rem;
+
+    .house-acreage {
+      color: @grey;
+      font-size: 0.15rem;
+      padding-top: 0.15rem;
+      .house-ag-ct {
+        line-height: 0.14rem;
+        .house-ag-item {
+          display: inline-block;
+          padding: 0.05rem 0rem;
+          &:after {
+            content: '';
+            display: block;
+            float: right;
+            height: 0.14rem;
+            width: 0px;
+            margin: 0px 0.07rem;
+            border-right: 1px solid #000000;
+          }
+          &:last-child {
+            &:after {
+              border: none;
+            }
+          }
+        }
+      }
+      p {
+        padding-top: 0.08rem;
+      }
     }
   }
 </style>

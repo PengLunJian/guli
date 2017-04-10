@@ -1,0 +1,22 @@
+@import "./variable";
+
+.common-title {
+  color: @darkGrey;
+  font-weight: normal;
+  line-height: 0.22rem;
+  text-align: center;
+  padding-bottom: 0.08rem;
+  &:before, &:after {
+    content: '';
+    width: 0.2rem;
+    height: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    border-top: 1px solid @black;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0rem 0.05rem;
+  }
+}
