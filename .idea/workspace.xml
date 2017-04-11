@@ -5,10 +5,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/bmap-comp/bmap-comp.vue" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/detail-tabs/detail-tabs.vue" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/jquery/jquery-1.11.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="$PROJECT_DIR$/.eslintignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/title.less" afterPath="$PROJECT_DIR$/src/assets/less/title.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail-comment/detail-comment.vue" afterPath="$PROJECT_DIR$/src/components/detail-comment/detail-comment.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail-info/detail-info.vue" afterPath="$PROJECT_DIR$/src/components/detail-info/detail-info.vue" />
@@ -447,12 +445,12 @@
       <workItem from="1491791445045" duration="23667000" />
       <workItem from="1491892443377" duration="372000" />
       <workItem from="1491892831691" duration="122000" />
-      <workItem from="1491893028834" duration="14953000" />
+      <workItem from="1491893028834" duration="15110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53220000" />
+    <option name="totallyTimeSpent" value="53377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +462,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
