@@ -1,5 +1,6 @@
 <template>
   <div class="house-recom">
+    <h3 class="common-title"><span>同小区/板块同价位房型</span></h3>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -162,6 +163,7 @@
 
   .house-recom {
     margin-top: 0.1rem;
+    padding-top: 0.15rem;
     background-color: @white;
     .swiper-container {
       padding: 0.08rem;

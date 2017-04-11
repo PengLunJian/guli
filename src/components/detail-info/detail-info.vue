@@ -45,7 +45,7 @@
     background-color: @white;
     .detail-link {
       line-height: 0.22rem;
-      margin-bottom: 0.08rem;
+      margin: 0.08rem 0rem;
       i {
         display: block;
         line-height: 0.22rem;

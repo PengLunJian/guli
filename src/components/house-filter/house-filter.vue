@@ -1,7 +1,7 @@
 <template>
   <div class="house-filter-container">
     <ul class="house-filter-select clearfix">
-      <li class="house-filter-option" v-for="tab in tabs" @click="showFilter(tab.index)">{{tab.value}}</li>
+      <li class="house-filter-option" v-for="tab in tabs" @click="showFilter(tab['index'])">{{tab['value']}}</li>
     </ul>
     <div class="house-filter-content" :class="{hide:isHide}">
       <div class="house-filter-bg" :class="{hide:isHide}" @click="hideFilter"></div>
