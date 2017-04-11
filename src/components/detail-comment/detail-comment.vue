@@ -17,9 +17,9 @@
           <div class="detail-comment-tm clearfix">
             <time class="detail-comment-time pull-left">2017-4-10 10:55:38 更新</time>
             <a href="javascript:void(0);" class="detail-comment-more pull-right"
-               @click="showAll(item.index)">查看全部&gt;&gt;</a>
+               @click="showAll(item['index'])">{{item['htmlText']}}&gt;&gt;</a>
           </div>
-          <p class="detail-comment-description" :class="{hidden:item.isHidden}">
+          <p class="detail-comment-description" :class="{hidden:item['isHidden']}">
             户型：2室2厅1卫  面积：108m2  ，结构小高层，单价13148，贷款在中国银行，税金27000，评估总价108万，首付66.5万，满2年，诚心出售，看房预约请拨打我的手机户型：2室2厅1卫  面积：108m2  ，结构小高层，单价13148，贷款在中国银行，税金27000。
           </p>
         </div>
@@ -34,8 +34,8 @@
     data () {
       return {
         items: [
-          {index: 0, isHidden: true},
-          {index: 1, isHidden: true}
+          {index: 0, isHidden: true, htmlText: '查看全部'},
+          {index: 1, isHidden: true, htmlText: '查看全部'}
         ]
       }
     },
@@ -43,8 +43,10 @@
       showAll: function (index) {
         if (this.items[index].isHidden) {
           this.items[index].isHidden = false
+          this.items[index].htmlText = '收起'
         } else {
           this.items[index].isHidden = true
+          this.items[index].htmlText = '查看全部'
         }
       }
     }
@@ -62,16 +64,16 @@
       padding-top: 0.08rem;
       .detail-comment-item {
         padding: 0.1rem 0rem;
-        border-bottom: 1px solid @border-color-gray;
+        border-bottom: 1px solid @borderColorGray;
         &:last-child {
           border: none;
           padding-bottom: 0rem;
         }
         .detail-comment-img {
-          width: 25%;
+          width: 30%;
           img {
             border-radius: 0.05rem;
-            border: 1px solid @border-color-gray;
+            border: 1px solid @borderColorGray;
           }
           a {
             color: @white;
@@ -83,29 +85,31 @@
           }
         }
         .detail-comment-info {
-          width: 75%;
+          width: 70%;
           color: @darkGrey;
           line-height: 0.2rem;
-          padding-left: 0.1rem;
+          padding-left: 0.15rem;
           text-align: justify;
           .detail-comment-sn {
             color: @grey;
+            margin-bottom: 0.05rem;
           }
           .detail-comment-phone {
             display: block;
             color: @orange;
             font-size: 0.17rem;
             line-height: 0.24rem;
+            margin-bottom: 0.05rem;
           }
           .detail-comment-heary {
-            font-size: 0.12rem;
+            margin-bottom: 0.05rem;
           }
           .detail-comment-tm {
             line-height: 0.22rem;
+            margin-bottom: 0.06rem;
             .detail-comment-time {
               display: block;
               color: @deepWhite;
-              font-size: 0.12rem;
             }
             .detail-comment-more {
               color: @orange;

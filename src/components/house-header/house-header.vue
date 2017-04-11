@@ -112,7 +112,7 @@
         height: 100%;
         z-index: 1002;
         overflow-y: auto;
-        background-color: #ffffff;
+        background-color: @white;
         text-align: left;
         font-size: 0.14rem;
         transform: translateX(-1.7rem);
@@ -129,7 +129,7 @@
           span {
             display: block;
             line-height: 0.46rem;
-            border-bottom: 1px solid @border-color-gray;
+            border-bottom: 1px solid @borderColorGray;
             &:before {
               margin-right: 0.1rem;
               color: #ff0000;

@@ -4,14 +4,19 @@
       <li class="detail-tab-item" :class="{active:tab['active']}" @click="changeModal(tab['index'])"
           v-for="tab in tabs">{{tab['value']}}
 
+
       </li>
     </ul>
     <ul class="detail-content">
       <li class="detail-content-item" :class="{active:tabs[0]['active']}">
         <bmap-comp></bmap-comp>
       </li>
-      <li class="detail-content-item" :class="{active:tabs[1]['active']}">b</li>
-      <li class="detail-content-item" :class="{active:tabs[2]['active']}">c</li>
+      <li class="detail-content-item" :class="{active:tabs[1]['active']}">
+        <bmap-comp></bmap-comp>
+      </li>
+      <li class="detail-content-item" :class="{active:tabs[2]['active']}">
+        <bmap-comp></bmap-comp>
+      </li>
     </ul>
   </div>
 </template>
@@ -51,7 +56,7 @@
     .detail-tab {
       text-align: center;
       line-height: 0.4rem;
-      border-bottom: 1px solid @border-color-gray;
+      border-bottom: 1px solid @borderColorGray;
       .detail-tab-item {
         float: left;
         width: 33.333%;
@@ -71,6 +76,7 @@
       }
     }
     .detail-content {
+      padding: 0.15rem 0rem;
       .detail-content-item {
         display: none;
         &.active {

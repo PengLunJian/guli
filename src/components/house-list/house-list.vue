@@ -1,23 +1,23 @@
 <template>
   <div class="house-list-container">
-    <div v-for="house in houseList" class="house-list-content">
-      <a :href="house.link" class="house-list-outside clearfix">
+    <div v-for="item in items" class="house-list-content">
+      <a :href="item['link']" class="house-list-outside clearfix">
         <div class="house-list-inside clearfix">
           <div class="house-list-image pull-left">
-            <img :src="house.imgUrl" :alt="house.title"/>
+            <img :src="item['imgUrl']" :alt="item['title']"/>
           </div>
           <div class="house-list-info pull-right">
-            <h2 class="house-list-title ellipsis">{{house.title}}</h2>
+            <h2 class="house-list-title ellipsis">{{item['title']}}</h2>
             <div class="house-list-position clearfix">
-              <address class="house-list-address pull-left">{{house.address}}</address>
-              <span class="house-list-price pull-right"><b>{{house.totalPrice}}</b>万</span>
+              <address class="house-list-address pull-left">{{item['address']}}</address>
+              <span class="house-list-price pull-right"><b>{{item['totalPrice']}}</b>万</span>
             </div>
             <div class="house-list-size clearfix">
-              <span class="house-list-layout pull-left">{{house.type}}&nbsp;&nbsp;{{house.mianji}}m²</span>
-              <span class="house-list-uprice pull-right">{{house.unitPrice}}元/m²</span>
+              <span class="house-list-layout pull-left">{{item['type']}}&nbsp;&nbsp;{{item['mianji']}}m²</span>
+              <span class="house-list-uprice pull-right">{{item['unitPrice']}}元/m²</span>
             </div>
             <ul class="house-list-advantage clearfix">
-              <li class="house-list-agitem" v-for="item in house.tedian">{{item}}</li>
+              <li class="house-list-agitem" v-for="list in item['tedian']">{{list}}</li>
             </ul>
           </div>
         </div>
@@ -32,14 +32,14 @@
     name: 'house-list-container',
     data () {
       return {
-        houseList: {}
+        items: {}
       }
     },
     created () {
       this.$http.get('/api/house').then((response) => {
         response = response.body
         if (response.errno === ERR_OK) {
-          this.houseList = response.data
+          this.items = response.data
         }
       })
     }

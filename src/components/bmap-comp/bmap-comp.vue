@@ -1,20 +1,31 @@
 <template>
   <div class="bmap-comp">
-    <!--<script src="../../../static/plugins/jquery/jquery-1.11.0.min.js"></script>-->
-    <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dSOifPmaDAIejuRUt2iPeFy1eaIb3t28"></script>-->
-    <div id="allmap" style="height:200px;"></div>
+    <baidu-map class="bmap" :center="center" @ready="handler" :zoom="15"></baidu-map>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-  export default {
+  export default{
     name: 'bmap-comp',
     data () {
-      return {}
+      return {
+        center: {lng: 121.277284, lat: 31.173753}
+      }
+    },
+    methods: {
+      handler () {
+        this.lng = 121.277284
+        this.lat = 31.173753
+      }
     }
   }
 </script>
 
 <style lang="less" rel="stylesheet/less">
-
+  .bmap-comp {
+    height: 2rem;
+    .bmap {
+      height: 100%;
+    }
+  }
 </style>

@@ -89,6 +89,9 @@
 
   .house-content {
     background-color: @white;
+    .house-image {
+      min-height: 2.1rem;
+    }
     .swiper-container {
       position: relative;
       .swiper-mask {
@@ -132,7 +135,7 @@
         color: @orange;
         font-size: 0.17rem;
         padding: 0.1rem 0.15rem;
-        border-bottom: 1px solid @border-color-gray;
+        border-bottom: 1px solid @borderColorGray;
         em {
           float: left;
           display: block;
@@ -141,7 +144,7 @@
           text-align: right;
           line-height: 0.18rem;
           padding-right: 0.3rem;
-          border-right: 1px solid @border-color-gray;
+          border-right: 1px solid @borderColorGray;
           &:last-child {
             border: none;
             text-align: left;

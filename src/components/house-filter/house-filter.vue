@@ -197,13 +197,13 @@
       color: @grey;
       padding: 0.1rem 0rem;
       background-color: @white;
-      border-bottom: 1px solid @border-color-gray;
+      border-bottom: 1px solid @borderColorGray;
       .house-filter-option {
         width: 33.3333%;
         float: left;
         text-align: center;
         line-height: 0.2rem;
-        border-right: 1px solid @border-color-gray;
+        border-right: 1px solid @borderColorGray;
         &:last-child {
           border-right: none;
         }
@@ -270,7 +270,7 @@
           width: 100%;
           line-height: 0.45rem;
           background-color: @white;
-          border-bottom: 1px solid @border-color-gray;
+          border-bottom: 1px solid @borderColorGray;
           .house-addr-tabbar {
             width: 50%;
             float: left;
@@ -288,7 +288,7 @@
             -webkit-overflow-scrolling: touch;
             background-color: @white;
             a {
-              border-bottom: 1px solid @border-color-gray;
+              border-bottom: 1px solid @borderColorGray;
               &.active {
                 color: @orange;
                 background-color: @light;
@@ -315,7 +315,7 @@
             width: 25%;
             color: @grey;
             font-size: 0.16rem;
-            border-top: 1px solid @border-color-gray;
+            border-top: 1px solid @borderColorGray;
             &.confirm {
               width: 75%;
               color: @white;
@@ -357,7 +357,7 @@
               a {
                 color: #777777;
                 border-radius: 0.26rem;
-                border: 1px solid @border-color-gray;
+                border: 1px solid @borderColorGray;
               }
             }
           }
@@ -368,7 +368,7 @@
           line-height: 0.45rem;
           -webkit-overflow-scrolling: touch;
           li {
-            border-bottom: 1px solid @border-color-gray;
+            border-bottom: 1px solid @borderColorGray;
             a {
               color: @grey;
             }
